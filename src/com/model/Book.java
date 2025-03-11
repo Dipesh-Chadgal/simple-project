@@ -3,7 +3,7 @@ package com.model;
 public class Book {
 
 	private String title;
-	private String author;
+	private Author author;
 
 	public String getTitle() {
 		return title;
@@ -14,10 +14,10 @@ public class Book {
 	}
 
 	public String getAuthor() {
-		return author;
+		return author.getName();
 	}
 
-	public void setAuthor(String author) {
+	public void setAuthor(Author author) {
 		this.author = author;
 	}
 
