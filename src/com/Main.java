@@ -17,9 +17,9 @@ public class Main {
 		Book book1 = new Book();
 		book1.setTitle("baba bazuka");
 		Author author1 = new Author();
-		author.setName("Fsociety");
-		book.setAuthor(author);
+		author1.setName("Fsociety");
+		book1.setAuthor(author1);
 		
-		System.out.println(book);
+		System.out.println(book1);
 	}
 }
